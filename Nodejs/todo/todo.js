@@ -1,7 +1,7 @@
 const { log } = require("console");
 const fs = require("fs");
 const filePath = "./tasks.json";
-
+  
 const loadTask = (task) => {
   try {
     // fs.readFileSync(filePath, 'utf8'); => this gives u data buffer not a regular string 
